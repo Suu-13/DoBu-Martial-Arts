@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classes &amp; Pricing — DoBu Martial Arts</title>
+  <meta name="description"
+    content="Explore DoBu Martial Arts classes — Karate, Judo, Boxing, Kickboxing, and Self-Defence — plus our weekly timetable and membership pricing.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="classes-pricing" data-nav-open="false">
+  <div class="site-shell">
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header">
+      <div class="container header-row">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">DB</span>
+          <span class="brand-copy">
+            <span class="brand-title">DoBu</span>
+            <span class="brand-subtitle">Martial Arts</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link" data-nav-id="home">Home</a></li>
+            <li><a href="martial-arts.html" class="nav-link" data-nav-id="martial-arts">Martial Arts</a></li>
+            <li><a href="classes-pricing.html" class="nav-link" data-nav-id="classes-pricing">Classes &amp; Pricing</a>
+            </li>
+            <li><a href="about.html" class="nav-link" data-nav-id="about">About</a></li>
+            <li><a href="account.html" class="nav-link" data-nav-id="account">Account</a></li>
+            <li><a href="community.html" class="nav-link" data-nav-id="community">Community</a></li>
+            <li><a href="contact.html" class="nav-link" data-nav-id="contact">Contact</a></li>
+          </ul>
+          <a href="login.html" class="header-cta header-cta-desktop">Join Now</a>
+        </nav>
+
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ============ PAGE BANNER ============ -->
+    <section class="page-banner">
+      <div class="container">
+        <span class="eyebrow">Classes &amp; Pricing</span>
+        <h1>Pick A Discipline,<br>Pick A Plan</h1>
+        <p>Five disciplines, one timetable, plans for however often you train.</p>
+      </div>
+    </section>
+
+    <!-- ============ MARTIAL ARTS TABS ============ -->
+    <section class="section" id="classes">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Our Classes</p>
+          <h2 class="section-title">Explore Each Discipline</h2>
+        </div>
+
+        <div data-tab-group data-panels-target="#class-panels">
+          <div class="tab-buttons" role="tablist" aria-label="Martial arts classes">
+            <button type="button" role="tab" class="tab-button" data-tab="tab-karate" data-class-filter="karate"
+              aria-selected="false">Karate</button>
+            <button type="button" role="tab" class="tab-button" data-tab="tab-judo" data-class-filter="judo"
+              aria-selected="false">Judo</button>
+            <button type="button" role="tab" class="tab-button" data-tab="tab-muaythai" data-class-filter="muaythai"
+              aria-selected="false">Muay Thai</button>
+            <button type="button" role="tab" class="tab-button" data-tab="tab-boxing" data-class-filter="boxing"
+              aria-selected="false">Boxing</button>
+            <button type="button" role="tab" class="tab-button" data-tab="tab-kickboxing" data-class-filter="kickboxing"
+              aria-selected="false">Kickboxing</button>
+            <button type="button" role="tab" class="tab-button" data-tab="tab-selfdefence"
+              data-class-filter="selfdefence" aria-selected="false">Self-Defence</button>
+          </div>
+
+          <div id="class-panels">
+            <article class="tab-panel" id="tab-all">
+              <div class="split-layout">
+                <div class="photo-frame photo-frame--wide"><img src="images/background.jpg"
+                    alt="DoBu members training together on the mat" class="photo-frame-img"></div>
+                <div>
+                  <span class="pill">Five Disciplines. One Membership.</span>
+                  <h3 class="card-title">Train Your Way</h3>
+                  <p>Switch between striking, throws, conditioning, and practical self-defence classes across the week.
+                    Use the filter buttons above to focus the timetable, then click any class card below for the full
+                    session details.</p>
+                  <div class="button-row">
+                    <a href="#timetable" class="button button-secondary">Explore The Timetable</a>
+                    <button type="button" class="button button-primary"
+                      data-book-class="Mixed Disciplines">Book</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="tab-panel" id="tab-karate" hidden>
+              <div class="split-layout">
+                <div class="photo-frame photo-frame--wide"><img src="images/karateAdult-2.jpg"
+                    alt="Karate class training in the dojo" class="photo-frame-img"></div>
+                <div>
+                  <span class="pill">Level: Beginner – Advanced</span>
+                  <h3 class="card-title">Karate</h3>
+                  <p>Traditional striking, footwork, stances, and kata for every belt level, with sessions that balance
+                    technique, control, and conditioning.</p>
+                  <div class="button-row">
+                    <a href="#timetable" class="button button-secondary">View Schedule</a>
+                    <button type="button" class="button button-primary" data-book-class="Karate">Book</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="tab-panel" id="tab-judo" hidden>
+              <div class="split-layout">
+                <div class="photo-frame photo-frame--wide"><img src="images/judoAdult.jpg"
+                    alt="Judo training session on the mats" class="photo-frame-img"></div>
+                <div>
+                  <span class="pill">Level: All Levels</span>
+                  <h3 class="card-title">Judo</h3>
+                  <p>Throws, breakfalls, and groundwork built on balance, leverage, and controlled partner work.</p>
+                  <div class="button-row">
+                    <a href="#timetable" class="button button-secondary">View Schedule</a>
+                    <button type="button" class="button button-primary" data-book-class="Judo">Book</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="tab-panel" id="tab-muaythai" hidden>
+              <div class="split-layout">
+                <div class="photo-frame photo-frame--wide"><img src="images/muaythai2.jpg"
+                    alt="Muay Thai training session on the mats" class="photo-frame-img"></div>
+                <div>
+                  <span class="pill">Level: All Levels</span>
+                  <h3 class="card-title">Muay Thai</h3>
+                  <p>Muay Thai, the Art of Eight Limbs, focuses on devastating elbow and knee strikes, powerful
+                    clinching
+                    techniques, and intense physical conditioning.</p>
+                  <div class="button-row">
+                    <a href="#timetable" class="button button-secondary">View Schedule</a>
+                    <button type="button" class="button button-primary" data-book-class="Muay Thai">Book</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="tab-panel" id="tab-boxing" hidden>
+              <div class="split-layout">
+                <div class="photo-frame photo-frame--wide"><img src="images/boxing.png"
+                    alt="Boxing training class with pads and footwork drills" class="photo-frame-img"></div>
+                <div>
+                  <span class="pill">Level: Beginner – Intermediate</span>
+                  <h3 class="card-title">Boxing</h3>
+                  <p>Sharp footwork, clean combinations, defensive movement, and conditioning in a fast, focused
+                    session.</p>
+                  <div class="button-row">
+                    <a href="#timetable" class="button button-secondary">View Schedule</a>
+                    <button type="button" class="button button-primary" data-book-class="Boxing">Book</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="tab-panel" id="tab-kickboxing" hidden>
+              <div class="split-layout">
+                <div class="photo-frame photo-frame--wide"><img src="images/kickboxingWoman.jfif"
+                    alt="Kickboxing class working through striking drills" class="photo-frame-img"></div>
+                <div>
+                  <span class="pill">Level: Intermediate – Advanced</span>
+                  <h3 class="card-title">Kickboxing</h3>
+                  <p>High-output striking that combines hands, kicks, pad rounds, and relentless conditioning.</p>
+                  <div class="button-row">
+                    <a href="#timetable" class="button button-secondary">View Schedule</a>
+                    <button type="button" class="button button-primary" data-book-class="Kickboxing">Book</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="tab-panel" id="tab-selfdefence" hidden>
+              <div class="split-layout">
+                <div class="photo-frame photo-frame--wide"><img src="images/selfdefense.jfif"
+                    alt="Self-defence class learning practical scenarios" class="photo-frame-img"></div>
+                <div>
+                  <span class="pill">Level: All Levels</span>
+                  <h3 class="card-title">Self-Defence</h3>
+                  <p>Practical, scenario-based training focused on awareness, escape options, and decision-making under
+                    pressure.</p>
+                  <div class="button-row">
+                    <a href="#timetable" class="button button-secondary">View Schedule</a>
+                    <button type="button" class="button button-primary" data-book-class="Self-Defence">Book</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TIMETABLE ============ -->
+    <section class="section" id="timetable">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Weekly Timetable</p>
+          <h2 class="section-title">When To Show Up</h2>
+        </div>
+
+        <div class="schedule-toolbar">
+          <p class="lede">The left column keeps time fixed and the days run horizontally across the week. Filter by
+            discipline above, and click any class card for session details.</p>
+          <p class="schedule-feedback" data-filter-feedback>Showing all disciplines across the full weekly timetable.
+          </p>
+        </div>
+
+        <div class="timetable-scroller">
+          <div class="timetable-board" role="table" aria-label="DoBu Martial Arts weekly timetable">
+            <div class="timetable-row timetable-row--head" role="row">
+              <div class="timetable-axis" role="columnheader">Time</div>
+              <div class="timetable-day" role="columnheader">Monday</div>
+              <div class="timetable-day" role="columnheader">Tuesday</div>
+              <div class="timetable-day" role="columnheader">Wednesday</div>
+              <div class="timetable-day" role="columnheader">Thursday</div>
+              <div class="timetable-day" role="columnheader">Friday</div>
+              <div class="timetable-day" role="columnheader">Saturday</div>
+              <div class="timetable-day" role="columnheader">Sunday</div>
+            </div>
+
+            <div class="timetable-row" role="row">
+              <div class="time-slot" role="rowheader"><span>9:00</span><small>AM</small></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="muaythai"
+                  data-class-name="Muay Thai Conditioning" data-discipline-label="Muay Thai"
+                  data-instructor="Coach Aung" data-day="Wednesday" data-start="9:00 AM" data-end="10:00 AM"
+                  data-capacity="20" data-enrolled="14" data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Muay Thai</span>
+                  <strong>Conditioning</strong>
+                  <span class="schedule-card__meta">Coach Aung · 14 / 20 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="kickboxing"
+                  data-class-name="Kickboxing Conditioning" data-discipline-label="Kickboxing"
+                  data-instructor="Coach Mason" data-day="Saturday" data-start="9:00 AM" data-end="10:15 AM"
+                  data-capacity="20" data-enrolled="17" data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Kickboxing</span>
+                  <strong>Conditioning</strong>
+                  <span class="schedule-card__meta">Coach Mason · 17 / 20 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+            </div>
+
+            <div class="timetable-row" role="row">
+              <div class="time-slot" role="rowheader"><span>10:00</span><small>AM</small></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="selfdefence"
+                  data-class-name="Self-Defence Workshop" data-discipline-label="Self-Defence"
+                  data-instructor="Coach Aye" data-day="Sunday" data-start="10:00 AM" data-end="11:30 AM"
+                  data-capacity="24" data-enrolled="19" data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Self-Defence</span>
+                  <strong>Workshop</strong>
+                  <span class="schedule-card__meta">Coach Aye · 19 / 24 enrolled</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="timetable-row" role="row">
+              <div class="time-slot" role="rowheader"><span>6:00</span><small>PM</small></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="boxing" data-class-name="Boxing Technique"
+                  data-discipline-label="Boxing" data-instructor="Coach Leon" data-day="Monday" data-start="6:00 PM"
+                  data-end="7:00 PM" data-capacity="18" data-enrolled="16" data-status="Limited"
+                  data-status-tone="limited">
+                  <span class="schedule-card__discipline">Boxing</span>
+                  <strong>Technique</strong>
+                  <span class="schedule-card__meta">Coach Leon · 16 / 18 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="muaythai"
+                  data-class-name="Muay Thai Fundamentals" data-discipline-label="Muay Thai"
+                  data-instructor="Coach Aung" data-day="Tuesday" data-start="6:00 PM" data-end="7:00 PM"
+                  data-capacity="20" data-enrolled="16" data-status="Limited" data-status-tone="limited">
+                  <span class="schedule-card__discipline">Muay Thai</span>
+                  <strong>Fundamentals</strong>
+                  <span class="schedule-card__meta">Coach Aung · 16 / 20 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="boxing" data-class-name="Boxing Technique"
+                  data-discipline-label="Boxing" data-instructor="Coach Leon" data-day="Thursday" data-start="6:00 PM"
+                  data-end="7:00 PM" data-capacity="18" data-enrolled="14" data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Boxing</span>
+                  <strong>Technique</strong>
+                  <span class="schedule-card__meta">Coach Leon · 14 / 18 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="muaythai"
+                  data-class-name="Muay Thai All Levels" data-discipline-label="Muay Thai" data-instructor="Coach Thiri"
+                  data-day="Friday" data-start="6:00 PM" data-end="7:00 PM" data-capacity="20" data-enrolled="15"
+                  data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Muay Thai</span>
+                  <strong>All Levels</strong>
+                  <span class="schedule-card__meta">Coach Thiri · 15 / 20 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+            </div>
+
+            <div class="timetable-row" role="row">
+              <div class="time-slot" role="rowheader"><span>6:30</span><small>PM</small></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="karate"
+                  data-class-name="Karate Fundamentals" data-discipline-label="Karate" data-instructor="Sensei Haruto"
+                  data-day="Monday" data-start="6:30 PM" data-end="7:30 PM" data-capacity="22" data-enrolled="20"
+                  data-status="Limited" data-status-tone="limited">
+                  <span class="schedule-card__discipline">Karate</span>
+                  <strong>Fundamentals</strong>
+                  <span class="schedule-card__meta">Sensei Haruto · 20 / 22 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="karate"
+                  data-class-name="Karate Fundamentals" data-discipline-label="Karate" data-instructor="Sensei Haruto"
+                  data-day="Wednesday" data-start="6:30 PM" data-end="7:30 PM" data-capacity="22" data-enrolled="18"
+                  data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Karate</span>
+                  <strong>Fundamentals</strong>
+                  <span class="schedule-card__meta">Sensei Haruto · 18 / 22 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="karate"
+                  data-class-name="Karate Fundamentals" data-discipline-label="Karate" data-instructor="Sensei Haruto"
+                  data-day="Friday" data-start="6:30 PM" data-end="7:30 PM" data-capacity="22" data-enrolled="17"
+                  data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Karate</span>
+                  <strong>Fundamentals</strong>
+                  <span class="schedule-card__meta">Sensei Haruto · 17 / 22 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+            </div>
+
+            <div class="timetable-row" role="row">
+              <div class="time-slot" role="rowheader"><span>7:00</span><small>PM</small></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="muaythai"
+                  data-class-name="Muay Thai Striking" data-discipline-label="Muay Thai" data-instructor="Coach Thiri"
+                  data-day="Monday" data-start="7:00 PM" data-end="8:00 PM" data-capacity="20" data-enrolled="12"
+                  data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Muay Thai</span>
+                  <strong>Striking &amp; Clinch</strong>
+                  <span class="schedule-card__meta">Coach Thiri · 12 / 20 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="judo" data-class-name="Judo All Levels"
+                  data-discipline-label="Judo" data-instructor="Coach Emi" data-day="Tuesday" data-start="7:00 PM"
+                  data-end="8:15 PM" data-capacity="16" data-enrolled="12" data-status="Open" data-status-tone="open">
+                  <span class="schedule-card__discipline">Judo</span>
+                  <strong>All Levels</strong>
+                  <span class="schedule-card__meta">Coach Emi · 12 / 16 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="judo" data-class-name="Judo All Levels"
+                  data-discipline-label="Judo" data-instructor="Coach Emi" data-day="Thursday" data-start="7:00 PM"
+                  data-end="8:15 PM" data-capacity="16" data-enrolled="14" data-status="Limited"
+                  data-status-tone="limited">
+                  <span class="schedule-card__discipline">Judo</span>
+                  <strong>All Levels</strong>
+                  <span class="schedule-card__meta">Coach Emi · 14 / 16 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+            </div>
+
+            <div class="timetable-row" role="row">
+              <div class="time-slot" role="rowheader"><span>8:00</span><small>PM</small></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="muaythai"
+                  data-class-name="Muay Thai Advanced Sparring" data-discipline-label="Muay Thai"
+                  data-instructor="Coach Aung" data-day="Thursday" data-start="8:00 PM" data-end="9:00 PM"
+                  data-capacity="16" data-enrolled="16" data-status="Full" data-status-tone="full">
+                  <span class="schedule-card__discipline">Muay Thai</span>
+                  <strong>Advanced Sparring</strong>
+                  <span class="schedule-card__meta">Coach Aung · 16 / 16 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell">
+                <button type="button" class="schedule-card" data-discipline="karate"
+                  data-class-name="Karate Advanced Sparring" data-discipline-label="Karate"
+                  data-instructor="Sensei Haruto" data-day="Friday" data-start="8:00 PM" data-end="9:00 PM"
+                  data-capacity="14" data-enrolled="14" data-status="Full" data-status-tone="full">
+                  <span class="schedule-card__discipline">Karate</span>
+                  <strong>Advanced Sparring</strong>
+                  <span class="schedule-card__meta">Sensei Haruto · 14 / 14 enrolled</span>
+                </button>
+              </div>
+              <div class="timetable-cell" role="cell"></div>
+              <div class="timetable-cell" role="cell"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Membership Plans</p>
+          <h2 class="section-title">Choose Your Plan</h2>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card card">
+            <span class="badge">Monthly</span>
+            <h3 class="card-title">Monthly Membership</h3>
+            <span class="price">45,000 MMK</span>
+            <p>Billed monthly. Full class and open gym access.</p>
+            <ul class="mini-list">
+              <li>Unlimited classes</li>
+              <li>Open gym access</li>
+              <li>Sauna &amp; steam room</li>
+            </ul>
+            <button type="button" class="button button-secondary" data-plan="Monthly" id="btn-plan-monthly">Choose
+              Monthly</button>
+          </article>
+
+          <article class="pricing-card card featured">
+            <span class="badge">Most Popular · Quarterly</span>
+            <h3 class="card-title">Quarterly Membership</h3>
+            <span class="price">120,000 MMK</span>
+            <p>Billed every 3 months. Best value overall.</p>
+            <ul class="mini-list">
+              <li>Everything in Monthly</li>
+              <li>Priority class booking</li>
+              <li>One free guest pass</li>
+            </ul>
+            <button type="button" class="button button-primary" data-plan="Quarterly" id="btn-plan-quarterly">Choose
+              Quarterly</button>
+          </article>
+
+          <article class="pricing-card card">
+            <span class="badge">Annual</span>
+            <h3 class="card-title">Annual Membership</h3>
+            <span class="price">420,000 MMK</span>
+            <p>Billed yearly. Lowest monthly cost.</p>
+            <ul class="mini-list">
+              <li>Everything in Quarterly</li>
+              <li>Free uniform &amp; grading fees</li>
+              <li>Two free guest passes</li>
+            </ul>
+            <button type="button" class="button button-secondary" data-plan="Annual" id="btn-plan-annual">Choose
+              Annual</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BAND ============ -->
+    <section class="section">
+      <div class="container cta-band">
+        <h2>Not Sure Which Class Fits?</h2>
+        <p class="lede">Try a free trial session before you commit to a plan.</p>
+        <div class="button-row">
+          <button type="button" class="button button-primary" data-plan="FreeTrial" id="btn-plan-freetrial">Book A Free
+            Trial</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="schedule-modal" data-schedule-modal hidden>
+      <div class="schedule-modal__backdrop" data-modal-close></div>
+      <div class="schedule-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="schedule-modal-title">
+        <button type="button" class="schedule-modal__close" aria-label="Close class details"
+          data-modal-close>Close</button>
+        <p class="section-kicker">Class Details</p>
+        <h2 class="card-title" id="schedule-modal-title">Class Name</h2>
+        <span class="schedule-modal__status" data-detail="status">Open</span>
+        <div class="schedule-detail-grid">
+          <div class="schedule-detail-item">
+            <span>Discipline</span>
+            <strong data-detail="discipline">Karate</strong>
+          </div>
+          <div class="schedule-detail-item">
+            <span>Instructor</span>
+            <strong data-detail="instructor">Sensei Haruto</strong>
+          </div>
+          <div class="schedule-detail-item">
+            <span>Day</span>
+            <strong data-detail="day">Monday</strong>
+          </div>
+          <div class="schedule-detail-item">
+            <span>Start Time</span>
+            <strong data-detail="start">6:30 PM</strong>
+          </div>
+          <div class="schedule-detail-item">
+            <span>End Time</span>
+            <strong data-detail="end">7:30 PM</strong>
+          </div>
+          <div class="schedule-detail-item">
+            <span>Capacity</span>
+            <strong data-detail="capacity">22</strong>
+          </div>
+          <div class="schedule-detail-item">
+            <span>Enrolled</span>
+            <strong data-detail="enrolled">20</strong>
+          </div>
+          <div class="schedule-detail-item">
+            <span>Status</span>
+            <strong data-detail="statusText">Limited</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3 class="footer-title">DoBu Martial Arts</h3>
+          <p class="footer-copy">A full-service martial arts gym for all ages and levels.</p>
+          <div class="social-row">
+            <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank"
+              rel="noopener noreferrer">
+              <svg class="social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank"
+              rel="noopener noreferrer">
+              <svg class="social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+            <a href="https://youtube.com" class="social-link" aria-label="YouTube" target="_blank"
+              rel="noopener noreferrer">
+              <svg class="social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+            </a>
+            <a href="https://tiktok.com" class="social-link" aria-label="TikTok" target="_blank"
+              rel="noopener noreferrer">
+              <svg class="social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Explore</h3>
+          <nav class="footer-links">
+            <a href="martial-arts.html">Martial Arts</a>
+            <a href="classes-pricing.html">Classes &amp; Pricing</a>
+            <a href="about.html">About Us</a>
+            <a href="community.html">Community</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Visit Us</h3>
+          <p class="footer-meta">No. 562 War Bargi Road, North Okkalapa<br>Yangon, Myanmar</p>
+          <p class="footer-meta">Mon–Sat: 6:00 AM – 9:00 PM</p>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>© 2026 DoBu Martial Arts. All rights reserved.</span>
+        <span>Built with discipline.</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
